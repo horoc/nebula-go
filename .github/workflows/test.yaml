@@ -1,7 +1,7 @@
 name: test
 on:
   push:
-    branches: [ master, 'release-**']
+    branches: [ support-session-manager-test, 'release-**']
   pull_request:
     branches: [ master, 'release-**']
   schedule:
